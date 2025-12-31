@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A Little Something</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: 'Patrick Hand', cursive;
+      background: linear-gradient(135deg, #e8dfff, #fff0d6);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #5a3a4a;
+    }
+
+    p {
+      font-size: 1.4em;
+      max-width: 600px;
+    }
+
+    button {
+      margin-top: 20px;
+      background: #ffd6e0;
+      border: none;
+      padding: 12px 28px;
+      border-radius: 25px;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p>here’s a poem for u.<br>wanna read it?</p>
+
+  <button onclick="goPoem()">let’s read the poem</button>
+
+  <script>
+    function goPoem() {
+      window.location.href = "poem.html";
+    }
+  </script>
+
+</body>
+</html>

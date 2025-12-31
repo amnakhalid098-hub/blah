@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Try Again</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: 'Patrick Hand', cursive;
+      background: linear-gradient(135deg, #fff0d6, #ffd6e0);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #5a3a4a;
+    }
+
+    img {
+      width: 160px;
+      margin-bottom: 10px;
+      filter: drop-shadow(4px 6px 6px rgba(0,0,0,0.15));
+      transform: rotate(-3deg);
+    }
+
+    p {
+      font-size: 1.6em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <img src="chimkandi.png">
+  <p>u chimkandi 💢</p>
+
+  <button onclick="goBack()">try again</button>
+
+  <script>
+    function goBack() {
+      window.location.href = "index.html";
+    }
+  </script>
+
+</body>
+</html>
